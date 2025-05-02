@@ -6,7 +6,7 @@ export default function Footer() {
     <footer className="bg-indigo-600 text-white py-6">
       <div className="container mx-auto text-center">
         
-          <img src={logo} alt="Logo" className="h-12 mx-auto" />
+          <img src={logo} alt="Logo" className="h-20 mx-auto" />
         
         <p>&copy; 2025 WPRODACADEMY &reg;. All rights reserved.</p>
         <p>
