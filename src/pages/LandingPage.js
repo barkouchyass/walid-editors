@@ -26,10 +26,17 @@ export default function LandingPage() {
   const handleSubmit = (e) => {
     e.preventDefault();
 
+    // Validation stricte pour l'e-mail
+    if (!formData.email || !formData.email.includes("@")) {
+      alert("Veuillez entrer une adresse e-mail valide.");
+      console.log("Adresse e-mail invalide :", formData.email); // Log pour déboguer
+      return;
+    }
+
     // Email to admin
     const adminTemplateParams = {
       to_email: "barkouchy1@gmail.com",
-      user_name: formData.name, // Correspond au champ dans le modèle EmailJS
+      user_name: formData.name,
       user_email: formData.email,
       user_phone: formData.phone,
       user_pack: formData.pack,
@@ -42,6 +49,9 @@ export default function LandingPage() {
       user_phone: formData.phone,
       user_pack: formData.pack,
     };
+
+    console.log("Admin email parameters:", adminTemplateParams);
+    console.log("User email parameters:", userTemplateParams);
 
     // Send emails using EmailJS
     emailjs
@@ -174,7 +184,7 @@ export default function LandingPage() {
         </div>
       )}
 
-      <style jsx>{`
+      <style>{`
         @keyframes modal {
           0% {
             transform: scale(0.8);
