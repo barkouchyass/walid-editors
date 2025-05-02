@@ -15,10 +15,10 @@ export default function Footer() {
           </a>
         </p>
         <div className="mt-2 flex justify-center space-x-4">
-          <a href="https://www.instagram.com" target="_blank" rel="noopener noreferrer" className="text-gray-200 hover:text-white">
+          <a href="https://www.instagram.com/wprodacademy.ma/" target="_blank" rel="noopener noreferrer" className="text-gray-200 hover:text-white">
             <FaInstagram className="w-6 h-6 inline" />
           </a>
-          <a href="https://www.tiktok.com" target="_blank" rel="noopener noreferrer" className="text-gray-200 hover:text-white">
+          <a href="https://www.tiktok.com/@wprodacademy" target="_blank" rel="noopener noreferrer" className="text-gray-200 hover:text-white">
             <FaTiktok className="w-6 h-6 inline" />
           </a>
         </div>
