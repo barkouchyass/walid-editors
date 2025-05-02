@@ -3,6 +3,7 @@ import Slider from "react-slick"; // Import react-slick for carousel functionali
 import "slick-carousel/slick/slick.css"; // Import slick-carousel styles
 import "slick-carousel/slick/slick-theme.css"; // Import slick-carousel theme styles
 import logo from "../images/output-onlinepngtools.png";
+import img from "../images/IMG_6241 (1).jpg";
 import emailjs from "emailjs-com"; // Import EmailJS
 
 export default function LandingPage() {
@@ -224,7 +225,7 @@ export default function LandingPage() {
             <div className="text-lg font-semibold">Walid Fiqhi</div>
             <div className="text-sm text-gray-600">Fondateur de WPRODACADEMY</div>
             <img
-              src={logo}
+              src={img}
               alt="Walid Fiqhi"
               className="w-16 h-16 rounded-full mt-4 border-2 border-white shadow-md"
             />
@@ -282,30 +283,30 @@ export default function LandingPage() {
               <h3 className="text-2xl font-semibold text-indigo-600">Pack 1 – Video Editing Basics</h3>
               <p className="mt-2 text-xl text-purple-600 font-bold">900 MAD</p>
               <ul className="mt-4 space-y-3 text-lg text-gray-700">
-                <li>• Prise en main d’Adobe Premiere Pro</li>
-                <li>• Découpe, rythme, transitions</li>
-                <li>• Exportation pro pour réseaux sociaux</li>
-                <li>• Bonnes pratiques dès le départ</li>
+                <li>🎯 Prise en main d’Adobe Premiere Pro</li>
+                <li>🎯 Découpe, rythme, transitions</li>
+                <li>🎯 Exportation pro pour réseaux sociaux</li>
+                <li>🎯 Bonnes pratiques dès le départ</li>
               </ul>
             </div>
             <div className="bg-white p-6 rounded-lg shadow-lg">
               <h3 className="text-2xl font-semibold text-indigo-600">Pack 2 – Intermediate Editing Techniques</h3>
               <p className="mt-2 text-xl text-purple-600 font-bold">1500 MAD</p>
               <ul className="mt-4 space-y-3 text-lg text-gray-700">
-                <li>• Montage de Vlogs, vidéos publicitaires</li>
-                <li>• Vidéos pour TikTok / Reels / YouTube Shorts</li>
-                <li>• Raccourcis, méthodo, organisation pro</li>
-                <li>• Gestion de formats et templates</li>
+                <li>🎯 Montage de Vlogs, vidéos publicitaires</li>
+                <li>🎯 Vidéos pour TikTok / Reels / YouTube Shorts</li>
+                <li>🎯 Raccourcis, méthodo, organisation pro</li>
+                <li>🎯 Gestion de formats et templates</li>
               </ul>
             </div>
             <div className="bg-white p-6 rounded-lg shadow-lg">
               <h3 className="text-2xl font-semibold text-indigo-600">Pack 3 – Advanced Editing Techniques</h3>
               <p className="mt-2 text-xl text-purple-600 font-bold">3000 MAD</p>
               <ul className="mt-4 space-y-3 text-lg text-gray-700">
-                <li>• Sound Design avancé</li>
-                <li>• Pré-étalonnage et équilibre visuel</li>
-                <li>• Montage de clips musicaux</li>
-                <li>• Techniques de storytelling et rythme avancé</li>
+                <li>🎯 Sound Design avancé</li>
+                <li>🎯 Pré-étalonnage et équilibre visuel</li>
+                <li>🎯 Montage de clips musicaux</li>
+                <li>🎯 Techniques de storytelling et rythme avancé</li>
               </ul>
             </div>
           </Slider>
@@ -318,19 +319,19 @@ export default function LandingPage() {
         </h2>
         <div className="max-w-4xl mx-auto grid grid-cols-1 md:grid-cols-2 gap-8">
           <div className="bg-white text-indigo-600 p-6 rounded-lg shadow-lg text-center">
-            <h3 className="text-3xl font-bold">+150</h3>
+            <h3 className="text-3xl font-bold">🏆 +150 </h3>
             <p className="mt-2 text-lg">Étudiants formés avec succès</p>
           </div>
           <div className="bg-white text-indigo-600 p-6 rounded-lg shadow-lg text-center">
-            <h3 className="text-3xl font-bold">80%</h3>
+            <h3 className="text-3xl font-bold">👥 80% </h3>
             <p className="mt-2 text-lg">Ont décroché leurs premiers clients freelance</p>
           </div>
           <div className="bg-white text-indigo-600 p-6 rounded-lg shadow-lg text-center">
-            <h3 className="text-3xl font-bold">40%</h3>
+            <h3 className="text-3xl font-bold">💸 40% </h3>
             <p className="mt-2 text-lg">Ont atteint un revenu de +8000 MAD/mois</p>
           </div>
           <div className="bg-white text-indigo-600 p-6 rounded-lg shadow-lg text-center">
-            <h3 className="text-3xl font-bold">International</h3>
+            <h3 className="text-3xl font-bold">🌍 International </h3>
             <p className="mt-2 text-lg">
               Certains travaillent avec des boîtes, créateurs, ou depuis l’étranger
             </p>
@@ -349,10 +350,10 @@ export default function LandingPage() {
               Économisez plus de <span className="font-bold">1800 MAD</span> en optant pour le pack complet !
             </p>
             <ul className="space-y-3 text-gray-700 text-left w-full max-w-xs">
-              <li>✔ Accès à vie</li>
-              <li>✔ Support 24/7</li>
-              <li>✔ 2-3 séances live offertes à la fin</li>
-              <li>✔ Cadeaux inclus (templates, packs, presets…)</li>
+              <li>✅ Accès à vie</li>
+              <li>✅ Support 24/7</li>
+              <li>✅ 2-3 séances live offertes à la fin</li>
+              <li>✅ Cadeaux inclus (templates, packs, presets…)</li>
             </ul>
             <p className="mt-8 text-2xl font-bold text-purple-600">3500 MAD</p>
           </div>
@@ -362,11 +363,11 @@ export default function LandingPage() {
               Un accompagnement 100% personnalisé pour atteindre vos objectifs rapidement.
             </p>
             <ul className="space-y-3 text-gray-700 text-left w-full max-w-xs">
-              <li>✔ Coaching en live 100% sur-mesure</li>
-              <li>✔ Suivi de votre projet personnel</li>
-              <li>✔ Accès à tous les bonus</li>
-              <li>✔ Support prioritaire</li>
-              <li>✔ Bilan et plan de carrière</li>
+              <li>✅ Coaching en live 100% sur-mesure</li>
+              <li>✅ Suivi de votre projet personnel</li>
+              <li>✅ Accès à tous les bonus</li>
+              <li>✅ Support prioritaire</li>
+              <li>✅ Bilan et plan de carrière</li>
             </ul>
             <p className="mt-8 text-2xl font-bold text-purple-600">4000 MAD</p>
             <p className="mt-2 text-sm text-gray-600 font-bold">Places limitées chaque mois.</p>
@@ -424,23 +425,23 @@ export default function LandingPage() {
         </h2>
         <div className="mt-8 max-w-4xl mx-auto space-y-6 text-lg text-gray-700">
           <div>
-            <p className="font-semibold text-indigo-600"> Est-ce que je peux commencer même si je suis débutant ?</p>
+            <p className="font-semibold text-indigo-600"> ❓Est-ce que je peux commencer même si je suis débutant ?</p>
             <p className="mt-2">Oui ! Le pack Video Editing Basics est fait pour toi.</p>
           </div>
           <div>
-            <p className="font-semibold text-indigo-600"> Est-ce que je peux payer en plusieurs fois ?</p>
+            <p className="font-semibold text-indigo-600"> ❓Est-ce que je peux payer en plusieurs fois ?</p>
             <p className="mt-2">Tu pourras bientôt payer en plusieurs fois avec nos partenaires.</p>
           </div>
           <div>
-            <p className="font-semibold text-indigo-600"> Je suis déjà monteur, est-ce que j’ai quelque chose à apprendre ?</p>
+            <p className="font-semibold text-indigo-600"> ❓Je suis déjà monteur, est-ce que j’ai quelque chose à apprendre ?</p>
             <p className="mt-2">Bien sûr. Le niveau Advanced est là pour les monteurs qui veulent aller plus loin.</p>
           </div>
           <div>
-            <p className="font-semibold text-indigo-600"> Et si je ne comprends pas quelque chose ?</p>
+            <p className="font-semibold text-indigo-600"> ❓Et si je ne comprends pas quelque chose ?</p>
             <p className="mt-2">Tu as accès au support 24/7 + des séances live offertes à la fin pour clarifier tout.</p>
           </div>
           <div>
-            <p className="font-semibold text-indigo-600"> Est-ce que c’est en français ou darija ?</p>
+            <p className="font-semibold text-indigo-600"> ❓Est-ce que c’est en français ou darija ?</p>
             <p className="mt-2">La formation est disponible en darija (version EN bientôt dispo).</p>
           </div>
         </div>
@@ -451,13 +452,13 @@ export default function LandingPage() {
           <i className="fas fa-lightbulb mr-3"></i> Pourquoi cette méthode fonctionne ?
         </h2>
         <div className="mt-8 max-w-4xl mx-auto space-y-6 text-lg text-gray-700">
-          <ul className="list-disc list-inside space-y-3">
-            <li>Tu avances à ton rythme</li>
-            <li>Tu apprends par la pratique, pas par la théorie</li>
-            <li>Tu es guidé jusqu’à devenir opérationnel en freelance</li>
-            <li>Tu n’es pas seul : tu as un support H24 + séances live</li>
-            <li>C’est une méthode testée par +150 monteurs marocains</li>
-            <li>Tu te formes pour gagner de l’argent, pas juste apprendre</li>
+          <ul className=" list-inside space-y-3">
+            <li><i className="fas fa-check-circle text-indigo-600 mr-3"></i>Tu avances à ton rythme</li>
+            <li><i className="fas fa-check-circle text-indigo-600 mr-3"></i>Tu apprends par la pratique, pas par la théorie</li>
+            <li><i className="fas fa-check-circle text-indigo-600 mr-3"></i>Tu es guidé jusqu’à devenir opérationnel en freelance</li>
+            <li><i className="fas fa-check-circle text-indigo-600 mr-3"></i>Tu n’es pas seul : tu as un support H24 + séances live</li>
+            <li><i className="fas fa-check-circle text-indigo-600 mr-3"></i>C’est une méthode testée par +150 monteurs marocains</li>
+            <li><i className="fas fa-check-circle text-indigo-600 mr-3"></i>Tu te formes pour gagner de l’argent, pas juste apprendre</li>
           </ul>
         </div>
       </section>
