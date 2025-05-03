@@ -229,7 +229,7 @@ export default function LandingPage() {
         </div>
       </section>
 
-      <section className="py-16 px-6 bg-white shadow-md">
+      <section id="avantages" className="py-16 px-6 bg-white shadow-md">
         <h2 className="text-4xl font-bold text-center text-indigo-600 flex items-center justify-center">
           <i className="fas fa-graduation-cap mr-3"></i> Ce que tu vas apprendre chez WPRODACADEMY
         </h2>
@@ -460,7 +460,7 @@ export default function LandingPage() {
         </div>
       </section>
 
-      <section className="py-16 px-6 bg-gradient-to-b from-purple-600 to-indigo-600 text-white">
+      <section id="engagements" className="py-16 px-6 bg-gradient-to-b from-purple-600 to-indigo-600 text-white">
         <h2 className="text-4xl font-bold text-center mb-8">
           <i className="fas fa-star mr-3"></i> Ce que tu obtiens en rejoignant WPRODACADEMY
         </h2>

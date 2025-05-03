@@ -18,7 +18,7 @@ export default function Header() {
     <header
       className={`sticky top-0 z-50 transition-all duration-300 ease-in-out backdrop-blur-md ${
         isScrolled
-          ? 'bg-transparent h-12 shadow-md'
+          ? 'bg-transparent h-12 shadow-md '
           : 'bg-gradient-to-r from-purple-600 to-indigo-600 h-16 shadow-lg'
       }`}
     >
@@ -42,7 +42,15 @@ export default function Header() {
               isScrolled ? 'text-xs' : 'text-sm'
             }`}
           >
-            À propos
+            Ciriculum
+          </a>
+          <a
+            href="#avantages"
+            className={`text-sm font-semibold text-white hover:text-gray-200 transition-all duration-300 ${
+              isScrolled ? 'text-xs' : 'text-sm'
+            }`}
+          >
+            Avantages
           </a>
           <a
             href="#curriculum"
@@ -50,15 +58,16 @@ export default function Header() {
               isScrolled ? 'text-xs' : 'text-sm'
             }`}
           >
-            Programme
+            Programmes
           </a>
+        
           <a
             href="#pricing"
             className={`text-sm font-semibold text-white hover:text-gray-200 transition-all duration-300 ${
               isScrolled ? 'text-xs' : 'text-sm'
             }`}
           >
-            Tarification
+            pack et tarification
           </a>
           <a
             href="#testimonials"
@@ -83,6 +92,14 @@ export default function Header() {
             }`}
           >
             FAQ
+          </a>
+          <a
+            href="#engagements"
+            className={`text-sm font-semibold text-white hover:text-gray-200 transition-all duration-300 ${
+              isScrolled ? 'text-xs' : 'text-sm'
+            }`}
+          >
+            Nos engagements
           </a>
         </PopoverGroup>
         <div className="hidden lg:flex lg:flex-1 lg:justify-end items-center">
