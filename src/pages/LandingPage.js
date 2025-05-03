@@ -2,7 +2,6 @@ import { useState } from "react";
 import Slider from "react-slick"; // Import react-slick for carousel functionality
 import "slick-carousel/slick/slick.css"; // Import slick-carousel styles
 import "slick-carousel/slick/slick-theme.css"; // Import slick-carousel theme styles
-import logo from "../images/output-onlinepngtools.png";
 import img from "../images/IMG_6241 (1).jpg";
 import emailjs from "emailjs-com"; // Import EmailJS
 
@@ -77,7 +76,7 @@ export default function LandingPage() {
 
   return (
     <div className="bg-gray-50 text-gray-800 font-sans">
-      <section className="text-center py-16 bg-gradient-to-b from-indigo-600 to-purple-600 text-white">
+      <section  className="text-center py-16 bg-gradient-to-b from-indigo-600 to-purple-600 text-white">
         <h1 className="text-4xl font-semibold leading-tight">
           Deviens Monteur Vidéo Pro avec <span className="font-extrabold">WPRODACADEMY</span>
         </h1>
@@ -206,28 +205,25 @@ export default function LandingPage() {
         }
       `}</style>
 
-      <section className="bg-gradient-to-b from-white via-indigo-50 to-indigo-200 py-16 px-4  text-center">
+      <section id="about" className="bg-gradient-to-b from-white via-indigo-50 to-indigo-200 py-16 px-4  text-center">
         <div className="max-w-3xl mx-auto">
           <h2 className="text-2xl sm:text-3xl md:text-4xl font-semibold text-gray-800 mb-6">
             À propos du Fondateur
           </h2>
           <p className="text-gray-700 text-base sm:text-lg mb-4">
-            <span className="font-bold text-purple-600">Walid Fiqhi</span>, fondateur de WPRODACADEMY, est un expert en montage vidéo avec plus de 10
-            ans d'expérience dans l'industrie. Passionné par la créativité et l'enseignement, il a aidé des centaines
-            d'étudiants à maîtriser les techniques de montage et à lancer leur carrière en freelance.
+            Fondateur de WPRODACADEMY, <span className="font-bold text-purple-600">Walid Fiqhi</span> , 22 ans, est un expert en montage vidéo avec plus de 8 ans d’expérience dans le cadrage, le montage, l’étalonnage et le sound design. Il a travaillé sur une grande variété de projets : clips musicaux, vidéos publicitaires, contenus pour les réseaux sociaux, etc.
           </p>
           <p className="text-gray-700 text-base sm:text-lg mb-8">
-            Grâce à son approche pédagogique unique et à sa connaissance approfondie des outils comme Adobe
-            Premiere Pro, Walid a créé une méthode d'apprentissage qui combine théorie et pratique pour garantir des
-            résultats concrets. Son objectif est de permettre à chacun de vivre de sa passion pour le montage vidéo.
+          Senior Editor, Colorist, VFX Artist et Graphic Designer, il a accompagné de nombreux monteurs à lancer leur carrière en freelance. Sa méthode d’apprentissage allie pratique, structure et maîtrise d’Adobe Premiere Pro, avec un seul objectif : te rendre indépendant financièrement grâce au montage vidéo.
           </p>
           <div className="flex flex-col items-center">
+          <div className="text-sm text-gray-600">« Mon objectif, c’est que tu deviennes indépendant financièrement, depuis ton PC. »</div>
             <div className="text-lg font-semibold">Walid Fiqhi</div>
-            <div className="text-sm text-gray-600">Fondateur de WPRODACADEMY</div>
+            
             <img
               src={img}
               alt="Walid Fiqhi"
-              className="w-16 h-16 rounded-full mt-4 border-2 border-white shadow-md"
+              className="w-16 h-16 rounded-full mt-2 border-2 border-white shadow-md"
             />
           </div>
         </div>
@@ -265,7 +261,7 @@ export default function LandingPage() {
         </ul>
       </section>
 
-      <section className="py-16 px-6 bg-gray-100">
+      <section id="curriculum" className="py-16 px-6 bg-gray-100">
         <h2 className="text-4xl font-bold text-center text-purple-600 flex items-center justify-center">
           <i className="fas fa-layer-group mr-3"></i> Programme Structuré par Niveau
         </h2>
@@ -339,7 +335,7 @@ export default function LandingPage() {
         </div>
       </section>
 
-      <section className="py-16 px-6 bg-white shadow-md">
+      <section id="pricing" className="py-16 px-6 bg-white shadow-md">
         <h2 className="text-4xl font-bold text-center text-indigo-600 mb-12 flex items-center justify-center">
           <i className="fas fa-tags mr-3"></i> Packs & Tarification : Investis dans ta carrière
         </h2>
@@ -354,6 +350,8 @@ export default function LandingPage() {
               <li>✅ Support 24/7</li>
               <li>✅ 2-3 séances live offertes à la fin</li>
               <li>✅ Cadeaux inclus (templates, packs, presets…)</li>
+              <li>✅ Accès à une communauté privée pour échanger et progresser</li>
+              <li>✅ Certificat délivré à la fin de chaque niveau pour valoriser ton profil</li>
             </ul>
             <p className="mt-8 text-2xl font-bold text-purple-600">3500 MAD</p>
           </div>
@@ -375,7 +373,7 @@ export default function LandingPage() {
         </div>
       </section>
 
-      <section className="py-16 px-6 bg-gray-50">
+      <section id="testimonials" className="py-16 px-6 bg-gray-50">
         <h2 className="text-4xl font-bold text-center text-indigo-600 flex items-center justify-center">
           <i className="fas fa-comments mr-3"></i> Avis des Utilisateurs
         </h2>
@@ -404,7 +402,7 @@ export default function LandingPage() {
         </div>
       </section>
 
-      <section className="py-16 px-6 bg-white shadow-md">
+      <section id="bonus" className="py-16 px-6 bg-white shadow-md">
         <h2 className="text-4xl font-bold text-center text-indigo-600 flex items-center justify-center">
           <i className="fas fa-gift mr-3"></i> Bonus & Cadeaux inclus
         </h2>
@@ -419,7 +417,7 @@ export default function LandingPage() {
         </div>
       </section>
 
-      <section className="py-16 px-6 bg-gray-50">
+      <section id="faq" className="py-16 px-6 bg-gray-50">
         <h2 className="text-4xl font-bold text-center text-indigo-600 flex items-center justify-center">
           <i className="fas fa-question-circle mr-3"></i> Questions Fréquentes (FAQ)
         </h2>
