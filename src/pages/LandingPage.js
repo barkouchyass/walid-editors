@@ -350,7 +350,6 @@ export default function LandingPage() {
               <li>✅ Support 24/7</li>
               <li>✅ 2-3 séances live offertes à la fin</li>
               <li>✅ Cadeaux inclus (templates, packs, presets…)</li>
-              <li>✅ Accès à une communauté privée pour échanger et progresser</li>
               <li>✅ Certificat délivré à la fin de chaque niveau pour valoriser ton profil</li>
             </ul>
             <p className="mt-8 text-2xl font-bold text-purple-600">3500 MAD</p>
