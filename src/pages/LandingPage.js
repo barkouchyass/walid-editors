@@ -217,7 +217,7 @@ export default function LandingPage() {
           Senior Editor, Colorist, VFX Artist et Graphic Designer, il a accompagné de nombreux monteurs à lancer leur carrière en freelance. Sa méthode d’apprentissage allie pratique, structure et maîtrise d’Adobe Premiere Pro, avec un seul objectif : te rendre indépendant financièrement grâce au montage vidéo.
           </p>
           <div className="flex flex-col items-center">
-          <div className="text-sm text-gray-600">« Mon objectif, c’est que tu deviennes indépendant financièrement, depuis ton PC. »</div>
+          <div className="font-bold text-gray-600">« Mon objectif, c’est que tu deviennes indépendant financièrement, depuis ton PC. »</div>
             <div className="text-lg font-semibold">Walid Fiqhi</div>
             
             <img

@@ -1,6 +1,6 @@
 import { useState, useEffect } from 'react';
 import { PopoverGroup } from '@headlessui/react';
-import logo from "../images/output-onlinepngtools.png";
+import logo from "../images/WPRODACADEMY.png";
 
 export default function Header() {
   const [isScrolled, setIsScrolled] = useState(false);
@@ -16,79 +16,81 @@ export default function Header() {
 
   return (
     <header
-      className={`sticky top-0 z-50 transition-all duration-300 ease-in-out backdrop-blur-md ${
+      className={`sticky top-0 z-50 transition-all duration-300 ease-in-out backdrop-blur-lg ${
         isScrolled
-          ? 'bg-transparent h-12 shadow-md'
-          : 'bg-gradient-to-r from-secondary to-accent h-16 shadow-lg'
+          ? 'bg-white/90 text-dark h-14 shadow-sm'
+          : 'bg-gradient-to-r from-secondary to-accent text-white h-18 shadow-lg'
       }`}
     >
-      <nav aria-label="Global" className="mx-auto flex max-w-7xl items-center justify-between p-4 lg:px-8">
-        <div className="flex lg:flex-1">
+      <nav
+        aria-label="Global"
+        className="mx-auto flex max-w-7xl items-center justify-between px-6 lg:px-10 h-full"
+      >
+        <div className="flex lg:flex-1 items-center">
           <a href="#" className="-m-1.5 p-1.5">
             <span className="sr-only">Your Company</span>
             <img
               alt=""
               src={logo}
               className={`transition-all duration-300 ease-in-out ${
-                isScrolled ? 'h-8' : 'h-10'
+                isScrolled ? 'h-10' : 'h-12'
               } w-auto`}
             />
           </a>
         </div>
-        <PopoverGroup className="hidden lg:flex lg:gap-x-12">
+        <PopoverGroup className="hidden lg:flex lg:gap-x-10 items-center">
           <a
             href="#about"
-            className={`text-sm font-semibold text-primary hover:text-secondary transition-all duration-300 ${
-              isScrolled ? 'text-xs' : 'text-sm'
+            className={`text-sm font-medium hover:text-secondary transition-all duration-300 ${
+              isScrolled ? 'text-dark' : 'text-white'
             }`}
           >
             Curriculum
           </a>
           <a
             href="#avantages"
-            className={`text-sm font-semibold text-primary hover:text-secondary transition-all duration-300 ${
-              isScrolled ? 'text-xs' : 'text-sm'
+            className={`text-sm font-medium hover:text-secondary transition-all duration-300 ${
+              isScrolled ? 'text-dark' : 'text-white'
             }`}
           >
             Avantages
           </a>
           <a
             href="#curriculum"
-            className={`text-sm font-semibold text-primary hover:text-secondary transition-all duration-300 ${
-              isScrolled ? 'text-xs' : 'text-sm'
+            className={`text-sm font-medium hover:text-secondary transition-all duration-300 ${
+              isScrolled ? 'text-dark' : 'text-white'
             }`}
           >
             Programmes
           </a>
-        
           <a
             href="#pricing"
-            className={`text-sm font-semibold text-primary hover:text-secondary transition-all duration-300 ${
-              isScrolled ? 'text-xs' : 'text-sm'
+            className={`text-sm font-medium hover:text-secondary transition-all duration-300 ${
+              isScrolled ? 'text-dark' : 'text-white'
             }`}
           >
-          Packs et Tarification
+            Packs et Tarification
           </a>
           <a
             href="#testimonials"
-            className={`text-sm font-semibold text-primary hover:text-secondary transition-all duration-300 ${
-              isScrolled ? 'text-xs' : 'text-sm'
+            className={`text-sm font-medium hover:text-secondary transition-all duration-300 ${
+              isScrolled ? 'text-dark' : 'text-white'
             }`}
           >
             Avis
-          </a>     
+          </a>
           <a
             href="#faq"
-            className={`text-sm font-semibold text-primary hover:text-secondary transition-all duration-300 ${
-              isScrolled ? 'text-xs' : 'text-sm'
+            className={`text-sm font-medium hover:text-secondary transition-all duration-300 ${
+              isScrolled ? 'text-dark' : 'text-white'
             }`}
           >
             FAQ
           </a>
           <a
             href="#engagements"
-            className={`text-sm font-semibold text-primary hover:text-secondary transition-all duration-300 ${
-              isScrolled ? 'text-xs' : 'text-sm'
+            className={`text-sm font-medium hover:text-secondary transition-all duration-300 ${
+              isScrolled ? 'text-dark' : 'text-white'
             }`}
           >
             Nos engagements
@@ -97,11 +99,13 @@ export default function Header() {
         <div className="hidden lg:flex lg:flex-1 lg:justify-end items-center">
           <a
             href="#"
-            className={`py-2.5 px-5 font-medium text-white bg-accent hover:bg-dark rounded-full shadow-md transition-all duration-300 ${
-              isScrolled ? 'text-xs' : 'text-sm'
+            className={`transition-all duration-300 font-medium rounded-full shadow-lg ${
+              isScrolled
+                ? 'py-2 px-4 text-xs text-white bg-dark hover:bg-secondary'
+                : 'py-3 px-6 text-sm text-white bg-accent hover:bg-dark'
             }`}
           >
-            Enroll today
+            S'inscrire
           </a>
         </div>
       </nav>
