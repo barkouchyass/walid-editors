@@ -18,8 +18,8 @@ export default function Header() {
     <header
       className={`sticky top-0 z-50 transition-all duration-300 ease-in-out backdrop-blur-md ${
         isScrolled
-          ? 'bg-transparent h-12 shadow-md '
-          : 'bg-gradient-to-r from-purple-600 to-indigo-600 h-16 shadow-lg'
+          ? 'bg-transparent h-12 shadow-md'
+          : 'bg-gradient-to-r from-secondary to-accent h-16 shadow-lg'
       }`}
     >
       <nav aria-label="Global" className="mx-auto flex max-w-7xl items-center justify-between p-4 lg:px-8">
@@ -38,15 +38,15 @@ export default function Header() {
         <PopoverGroup className="hidden lg:flex lg:gap-x-12">
           <a
             href="#about"
-            className={`text-sm font-semibold text-white hover:text-gray-200 transition-all duration-300 ${
+            className={`text-sm font-semibold text-primary hover:text-secondary transition-all duration-300 ${
               isScrolled ? 'text-xs' : 'text-sm'
             }`}
           >
-            Ciriculum
+            Curriculum
           </a>
           <a
             href="#avantages"
-            className={`text-sm font-semibold text-white hover:text-gray-200 transition-all duration-300 ${
+            className={`text-sm font-semibold text-primary hover:text-secondary transition-all duration-300 ${
               isScrolled ? 'text-xs' : 'text-sm'
             }`}
           >
@@ -54,7 +54,7 @@ export default function Header() {
           </a>
           <a
             href="#curriculum"
-            className={`text-sm font-semibold text-white hover:text-gray-200 transition-all duration-300 ${
+            className={`text-sm font-semibold text-primary hover:text-secondary transition-all duration-300 ${
               isScrolled ? 'text-xs' : 'text-sm'
             }`}
           >
@@ -63,31 +63,23 @@ export default function Header() {
         
           <a
             href="#pricing"
-            className={`text-sm font-semibold text-white hover:text-gray-200 transition-all duration-300 ${
+            className={`text-sm font-semibold text-primary hover:text-secondary transition-all duration-300 ${
               isScrolled ? 'text-xs' : 'text-sm'
             }`}
           >
-            pack et tarification
+          Packs et Tarification
           </a>
           <a
             href="#testimonials"
-            className={`text-sm font-semibold text-white hover:text-gray-200 transition-all duration-300 ${
+            className={`text-sm font-semibold text-primary hover:text-secondary transition-all duration-300 ${
               isScrolled ? 'text-xs' : 'text-sm'
             }`}
           >
             Avis
-          </a>
-          <a
-            href="#bonus"
-            className={`text-sm font-semibold text-white hover:text-gray-200 transition-all duration-300 ${
-              isScrolled ? 'text-xs' : 'text-sm'
-            }`}
-          >
-            Bonus
-          </a>
+          </a>     
           <a
             href="#faq"
-            className={`text-sm font-semibold text-white hover:text-gray-200 transition-all duration-300 ${
+            className={`text-sm font-semibold text-primary hover:text-secondary transition-all duration-300 ${
               isScrolled ? 'text-xs' : 'text-sm'
             }`}
           >
@@ -95,7 +87,7 @@ export default function Header() {
           </a>
           <a
             href="#engagements"
-            className={`text-sm font-semibold text-white hover:text-gray-200 transition-all duration-300 ${
+            className={`text-sm font-semibold text-primary hover:text-secondary transition-all duration-300 ${
               isScrolled ? 'text-xs' : 'text-sm'
             }`}
           >
@@ -105,7 +97,7 @@ export default function Header() {
         <div className="hidden lg:flex lg:flex-1 lg:justify-end items-center">
           <a
             href="#"
-            className={`py-2.5 px-5 font-medium text-white bg-indigo-700 hover:bg-indigo-800 rounded-full shadow-md transition-all duration-300 ${
+            className={`py-2.5 px-5 font-medium text-white bg-accent hover:bg-dark rounded-full shadow-md transition-all duration-300 ${
               isScrolled ? 'text-xs' : 'text-sm'
             }`}
           >

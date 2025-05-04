@@ -76,15 +76,15 @@ export default function LandingPage() {
 
   return (
     <div className="bg-gray-50 text-gray-800 font-sans">
-      <section  className="text-center py-16 bg-gradient-to-b from-indigo-600 to-purple-600 text-white">
+      <section className="text-center py-16 bg-gradient-to-b from-accent to-dark text-primary">
         <h1 className="text-4xl font-semibold leading-tight">
-          Deviens Monteur Vidéo Pro avec <span className="font-extrabold">WPRODACADEMY</span>
+          Deviens Monteur Vidéo Pro avec <span className="font-extrabold text-secondary">WPRODACADEMY</span>
         </h1>
         <p className="mt-6 text-lg max-w-3xl mx-auto">
           Forme-toi à ton rythme, depuis ton PC, avec une méthode testée et approuvée.
         </p>
         <button
-          className="mt-8 bg-white text-indigo-600 hover:bg-gray-100 py-3 px-6 rounded-full text-lg shadow-lg"
+          className="mt-8 bg-primary text-dark hover:bg-secondary py-3 px-6 rounded-full text-lg shadow-lg"
           onClick={handleModalToggle}
         >
           Je m’inscris maintenant
@@ -205,7 +205,7 @@ export default function LandingPage() {
         }
       `}</style>
 
-      <section id="about" className="bg-gradient-to-b from-white via-indigo-50 to-indigo-200 py-16 px-4  text-center">
+      <section id="about" className="bg-gradient-to-b from-primary via-secondary to-accent py-16 px-4 text-center">
         <div className="max-w-3xl mx-auto">
           <h2 className="text-2xl sm:text-3xl md:text-4xl font-semibold text-gray-800 mb-6">
             À propos du Fondateur
@@ -229,7 +229,7 @@ export default function LandingPage() {
         </div>
       </section>
 
-      <section id="avantages" className="py-16 px-6 bg-white shadow-md">
+      <section id="avantages" className="py-16 px-6 bg-primary shadow-md">
         <h2 className="text-4xl font-bold text-center text-indigo-600 flex items-center justify-center">
           <i className="fas fa-graduation-cap mr-3"></i> Ce que tu vas apprendre chez WPRODACADEMY
         </h2>
@@ -261,7 +261,7 @@ export default function LandingPage() {
         </ul>
       </section>
 
-      <section id="curriculum" className="py-16 px-6 bg-gray-100">
+      <section id="curriculum" className="py-16 px-6 bg-secondary">
         <h2 className="text-4xl font-bold text-center text-purple-600 flex items-center justify-center">
           <i className="fas fa-layer-group mr-3"></i> Programme Structuré par Niveau
         </h2>
@@ -335,7 +335,7 @@ export default function LandingPage() {
         </div>
       </section>
 
-      <section id="pricing" className="py-16 px-6 bg-white shadow-md">
+      <section id="pricing" className="py-16 px-6 bg-primary shadow-md">
         <h2 className="text-4xl font-bold text-center text-indigo-600 mb-12 flex items-center justify-center">
           <i className="fas fa-tags mr-3"></i> Packs & Tarification : Investis dans ta carrière
         </h2>
@@ -372,7 +372,7 @@ export default function LandingPage() {
         </div>
       </section>
 
-      <section id="testimonials" className="py-16 px-6 bg-gray-50">
+      <section id="testimonials" className="py-16 px-6 bg-secondary">
         <h2 className="text-4xl font-bold text-center text-indigo-600 flex items-center justify-center">
           <i className="fas fa-comments mr-3"></i> Avis des Utilisateurs
         </h2>
@@ -416,7 +416,7 @@ export default function LandingPage() {
         </div>
       </section>
 
-      <section id="faq" className="py-16 px-6 bg-gray-50">
+      <section id="faq" className="py-16 px-6 bg-primary">
         <h2 className="text-4xl font-bold text-center text-indigo-600 flex items-center justify-center">
           <i className="fas fa-question-circle mr-3"></i> Questions Fréquentes (FAQ)
         </h2>
@@ -460,7 +460,7 @@ export default function LandingPage() {
         </div>
       </section>
 
-      <section id="engagements" className="py-16 px-6 bg-gradient-to-b from-purple-600 to-indigo-600 text-white">
+      <section id="engagements" className="py-16 px-6 bg-gradient-to-b from-accent to-dark text-primary">
         <h2 className="text-4xl font-bold text-center mb-8">
           <i className="fas fa-star mr-3"></i> Ce que tu obtiens en rejoignant WPRODACADEMY
         </h2>
