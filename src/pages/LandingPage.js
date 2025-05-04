@@ -211,7 +211,7 @@ export default function LandingPage() {
             À propos du Fondateur
           </h2>
           <p className="text-gray-700 text-base sm:text-lg mb-4">
-            Fondateur de WPRODACADEMY, <span className="font-bold text-purple-600">Walid Fiqhi</span> , 22 ans, est un expert en montage vidéo avec plus de 8 ans d’expérience dans le cadrage, le montage, l’étalonnage et le sound design. Il a travaillé sur une grande variété de projets : clips musicaux, vidéos publicitaires, contenus pour les réseaux sociaux, etc.
+            Fondateur de WPRODACADEMY, <span className="font-bold text-accent">Walid Fiqhi</span> , 22 ans, est un expert en montage vidéo avec plus de 8 ans d’expérience dans le cadrage, le montage, l’étalonnage et le sound design. Il a travaillé sur une grande variété de projets : clips musicaux, vidéos publicitaires, contenus pour les réseaux sociaux, etc.
           </p>
           <p className="text-gray-700 text-base sm:text-lg mb-8">
           Senior Editor, Colorist, VFX Artist et Graphic Designer, il a accompagné de nombreux monteurs à lancer leur carrière en freelance. Sa méthode d’apprentissage allie pratique, structure et maîtrise d’Adobe Premiere Pro, avec un seul objectif : te rendre indépendant financièrement grâce au montage vidéo.
@@ -230,39 +230,39 @@ export default function LandingPage() {
       </section>
 
       <section id="avantages" className="py-16 px-6 bg-primary shadow-md">
-        <h2 className="text-4xl font-bold text-center text-indigo-600 flex items-center justify-center">
+        <h2 className="text-4xl font-bold text-center text-accent flex items-center justify-center">
           <i className="fas fa-graduation-cap mr-3"></i> Ce que tu vas apprendre chez WPRODACADEMY
         </h2>
         <ul className="mt-8 max-w-4xl mx-auto space-y-6 text-lg text-gray-700">
           <li className="flex items-start">
-            <span className="w-2.5 h-2.5 mt-2 mr-3 bg-indigo-600 rounded-full"></span>
+            <span className="w-2.5 h-2.5 mt-2 mr-3 bg-accent rounded-full"></span>
             Maîtrise Adobe Premiere Pro comme un pro
           </li>
           <li className="flex items-start">
-            <span className="w-2.5 h-2.5 mt-2 mr-3 bg-indigo-600 rounded-full"></span>
+            <span className="w-2.5 h-2.5 mt-2 mr-3 bg-accent rounded-full"></span>
             Développe une vraie méthodologie de montage
           </li>
           <li className="flex items-start">
-            <span className="w-2.5 h-2.5 mt-2 mr-3 bg-indigo-600 rounded-full"></span>
+            <span className="w-2.5 h-2.5 mt-2 mr-3 bg-accent rounded-full"></span>
             Crée des vidéos pour les réseaux sociaux, publicités, clips, courts-métrages
           </li>
           <li className="flex items-start">
-            <span className="w-2.5 h-2.5 mt-2 mr-3 bg-indigo-600 rounded-full"></span>
+            <span className="w-2.5 h-2.5 mt-2 mr-3 bg-accent rounded-full"></span>
             Ajoute du sound design, du rythme, et de la créativité à tes montages
           </li>
           <li className="flex items-start">
-            <span className="w-2.5 h-2.5 mt-2 mr-3 bg-indigo-600 rounded-full"></span>
+            <span className="w-2.5 h-2.5 mt-2 mr-3 bg-accent rounded-full"></span>
             Lance-toi en freelance et génère minimum 8000 MAD/mois
           </li>
           <li className="flex items-start">
-            <span className="w-2.5 h-2.5 mt-2 mr-3 bg-indigo-600 rounded-full"></span>
+            <span className="w-2.5 h-2.5 mt-2 mr-3 bg-accent rounded-full"></span>
             Apprends les techniques qui ont aidé +150 monteurs à se lancer
           </li>
         </ul>
       </section>
 
       <section id="curriculum" className="py-16 px-6 bg-secondary">
-        <h2 className="text-4xl font-bold text-center text-purple-600 flex items-center justify-center">
+        <h2 className="text-4xl font-bold text-center text-accent flex items-center justify-center">
           <i className="fas fa-layer-group mr-3"></i> Programme Structuré par Niveau
         </h2>
         <div className="mt-8 max-w-4xl mx-auto">
@@ -276,8 +276,8 @@ export default function LandingPage() {
             autoplaySpeed={3000}
           >
             <div className="bg-white p-6 rounded-lg shadow-lg">
-              <h3 className="text-2xl font-semibold text-indigo-600">Pack 1 – Video Editing Basics</h3>
-              <p className="mt-2 text-xl text-purple-600 font-bold">900 MAD</p>
+              <h3 className="text-2xl font-semibold text-accent">Pack 1 – Video Editing Basics</h3>
+              <p className="mt-2 text-xl text-accent font-bold">900 MAD</p>
               <ul className="mt-4 space-y-3 text-lg text-gray-700">
                 <li>🎯 Prise en main d’Adobe Premiere Pro</li>
                 <li>🎯 Découpe, rythme, transitions</li>
@@ -286,8 +286,8 @@ export default function LandingPage() {
               </ul>
             </div>
             <div className="bg-white p-6 rounded-lg shadow-lg">
-              <h3 className="text-2xl font-semibold text-indigo-600">Pack 2 – Intermediate Editing Techniques</h3>
-              <p className="mt-2 text-xl text-purple-600 font-bold">1500 MAD</p>
+              <h3 className="text-2xl font-semibold text-accent">Pack 2 – Intermediate Editing Techniques</h3>
+              <p className="mt-2 text-xl text-accent font-bold">1500 MAD</p>
               <ul className="mt-4 space-y-3 text-lg text-gray-700">
                 <li>🎯 Montage de Vlogs, vidéos publicitaires</li>
                 <li>🎯 Vidéos pour TikTok / Reels / YouTube Shorts</li>
@@ -296,8 +296,8 @@ export default function LandingPage() {
               </ul>
             </div>
             <div className="bg-white p-6 rounded-lg shadow-lg">
-              <h3 className="text-2xl font-semibold text-indigo-600">Pack 3 – Advanced Editing Techniques</h3>
-              <p className="mt-2 text-xl text-purple-600 font-bold">3000 MAD</p>
+              <h3 className="text-2xl font-semibold text-accent">Pack 3 – Advanced Editing Techniques</h3>
+              <p className="mt-2 text-xl text-accent font-bold">3000 MAD</p>
               <ul className="mt-4 space-y-3 text-lg text-gray-700">
                 <li>🎯 Sound Design avancé</li>
                 <li>🎯 Pré-étalonnage et équilibre visuel</li>
@@ -309,25 +309,25 @@ export default function LandingPage() {
         </div>
       </section>
 
-      <section className="py-16 px-6 bg-gradient-to-b from-indigo-600 to-purple-600 text-white">
+      <section className="py-16 px-6 bg-gradient-to-b from-accent to-dark text-primary">
         <h2 className="text-4xl font-bold text-center mb-8">
           <i className="fas fa-chart-line mr-3"></i> Résultats des étudiants
         </h2>
         <div className="max-w-4xl mx-auto grid grid-cols-1 md:grid-cols-2 gap-8">
-          <div className="bg-white text-indigo-600 p-6 rounded-lg shadow-lg text-center">
-            <h3 className="text-3xl font-bold">🏆 +150 </h3>
+          <div className="bg-primary text-dark p-6 rounded-lg shadow-lg text-center">
+            <h3 className="text-3xl font-bold">🏆 +150</h3>
             <p className="mt-2 text-lg">Étudiants formés avec succès</p>
           </div>
-          <div className="bg-white text-indigo-600 p-6 rounded-lg shadow-lg text-center">
-            <h3 className="text-3xl font-bold">👥 80% </h3>
+          <div className="bg-primary text-dark p-6 rounded-lg shadow-lg text-center">
+            <h3 className="text-3xl font-bold">👥 80%</h3>
             <p className="mt-2 text-lg">Ont décroché leurs premiers clients freelance</p>
           </div>
-          <div className="bg-white text-indigo-600 p-6 rounded-lg shadow-lg text-center">
-            <h3 className="text-3xl font-bold">💸 40% </h3>
+          <div className="bg-primary text-dark p-6 rounded-lg shadow-lg text-center">
+            <h3 className="text-3xl font-bold">💸 40%</h3>
             <p className="mt-2 text-lg">Ont atteint un revenu de +8000 MAD/mois</p>
           </div>
-          <div className="bg-white text-indigo-600 p-6 rounded-lg shadow-lg text-center">
-            <h3 className="text-3xl font-bold">🌍 International </h3>
+          <div className="bg-primary text-dark p-6 rounded-lg shadow-lg text-center">
+            <h3 className="text-3xl font-bold">🌍 International</h3>
             <p className="mt-2 text-lg">
               Certains travaillent avec des boîtes, créateurs, ou depuis l’étranger
             </p>
@@ -336,12 +336,12 @@ export default function LandingPage() {
       </section>
 
       <section id="pricing" className="py-16 px-6 bg-primary shadow-md">
-        <h2 className="text-4xl font-bold text-center text-indigo-600 mb-12 flex items-center justify-center">
+        <h2 className="text-4xl font-bold text-center text-accent mb-12 flex items-center justify-center">
           <i className="fas fa-tags mr-3"></i> Packs & Tarification : Investis dans ta carrière
         </h2>
         <div className="mt-8 max-w-4xl mx-auto grid grid-cols-1 md:grid-cols-2 gap-12">
           <div className="bg-gray-50 p-8 rounded-lg shadow-lg border border-gray-200 flex flex-col items-center text-center">
-            <h3 className="text-2xl font-bold text-purple-600 mb-4">Pack complet (les 3 niveaux)</h3>
+            <h3 className="text-2xl font-bold text-accent mb-4">Pack complet (les 3 niveaux)</h3>
             <p className="text-base text-gray-600 mb-6">
               Économisez plus de <span className="font-bold">1800 MAD</span> en optant pour le pack complet !
             </p>
@@ -352,10 +352,10 @@ export default function LandingPage() {
               <li>✅ Cadeaux inclus (templates, packs, presets…)</li>
               <li>✅ Certificat délivré à la fin de chaque niveau pour valoriser ton profil</li>
             </ul>
-            <p className="mt-8 text-2xl font-bold text-purple-600">3500 MAD</p>
+            <p className="mt-8 text-2xl font-bold text-accent">3500 MAD</p>
           </div>
           <div className="bg-gray-50 p-8 rounded-lg shadow-lg border border-gray-200 flex flex-col items-center text-center">
-            <h3 className="text-2xl font-bold text-purple-600 mb-4">Offre 1-to-1 (Coaching Premium)</h3>
+            <h3 className="text-2xl font-bold text-accent mb-4">Offre 1-to-1 (Coaching Premium)</h3>
             <p className="text-base text-gray-600 mb-6">
               Un accompagnement 100% personnalisé pour atteindre vos objectifs rapidement.
             </p>
@@ -366,14 +366,14 @@ export default function LandingPage() {
               <li>✅ Support prioritaire</li>
               <li>✅ Bilan et plan de carrière</li>
             </ul>
-            <p className="mt-8 text-2xl font-bold text-purple-600">4000 MAD</p>
+            <p className="mt-8 text-2xl font-bold text-accent">4000 MAD</p>
             <p className="mt-2 text-sm text-gray-600 font-bold">Places limitées chaque mois.</p>
           </div>
         </div>
       </section>
 
       <section id="testimonials" className="py-16 px-6 bg-secondary">
-        <h2 className="text-4xl font-bold text-center text-indigo-600 flex items-center justify-center">
+        <h2 className="text-4xl font-bold text-center text-accent flex items-center justify-center">
           <i className="fas fa-comments mr-3"></i> Avis des Utilisateurs
         </h2>
         <p className="mt-4 text-center text-lg text-gray-700">
@@ -384,25 +384,25 @@ export default function LandingPage() {
             <p className="text-lg text-gray-700">
               "Grâce à WPRODACADEMY, j'ai pu lancer ma carrière en freelance. Les cours sont clairs, pratiques et motivants. Merci Walid !"
             </p>
-            <p className="mt-4 text-right text-purple-600 font-bold">- Sarah B.</p>
+            <p className="mt-4 text-right text-accent font-bold">- Sarah B.</p>
           </div>
           <div className="bg-white p-6 rounded-lg shadow-md">
             <p className="text-lg text-gray-700">
               "Les packs sont super bien structurés. J'ai appris à maîtriser Adobe Premiere Pro en un temps record. Je recommande à 100%."
             </p>
-            <p className="mt-4 text-right text-purple-600 font-bold">- Ahmed K.</p>
+            <p className="mt-4 text-right text-accent font-bold">- Ahmed K.</p>
           </div>
           <div className="bg-white p-6 rounded-lg shadow-md">
             <p className="text-lg text-gray-700">
               "Une formation complète et accessible. Les conseils de Walid m'ont permis de créer des vidéos professionnelles rapidement."
             </p>
-            <p className="mt-4 text-right text-purple-600 font-bold">- Leila M.</p>
+            <p className="mt-4 text-right text-accent font-bold">- Leila M.</p>
           </div>
         </div>
       </section>
 
       <section id="bonus" className="py-16 px-6 bg-white shadow-md">
-        <h2 className="text-4xl font-bold text-center text-indigo-600 flex items-center justify-center">
+        <h2 className="text-4xl font-bold text-center text-accent flex items-center justify-center">
           <i className="fas fa-gift mr-3"></i> Bonus & Cadeaux inclus
         </h2>
         <div className="mt-8 max-w-4xl mx-auto space-y-6 text-lg text-gray-700">
@@ -417,45 +417,45 @@ export default function LandingPage() {
       </section>
 
       <section id="faq" className="py-16 px-6 bg-primary">
-        <h2 className="text-4xl font-bold text-center text-indigo-600 flex items-center justify-center">
+        <h2 className="text-4xl font-bold text-center text-accent flex items-center justify-center">
           <i className="fas fa-question-circle mr-3"></i> Questions Fréquentes (FAQ)
         </h2>
         <div className="mt-8 max-w-4xl mx-auto space-y-6 text-lg text-gray-700">
           <div>
-            <p className="font-semibold text-indigo-600"> ❓Est-ce que je peux commencer même si je suis débutant ?</p>
+            <p className="font-semibold text-accent"> ❓Est-ce que je peux commencer même si je suis débutant ?</p>
             <p className="mt-2">Oui ! Le pack Video Editing Basics est fait pour toi.</p>
           </div>
           <div>
-            <p className="font-semibold text-indigo-600"> ❓Est-ce que je peux payer en plusieurs fois ?</p>
+            <p className="font-semibold text-accent"> ❓Est-ce que je peux payer en plusieurs fois ?</p>
             <p className="mt-2">Tu pourras bientôt payer en plusieurs fois avec nos partenaires.</p>
           </div>
           <div>
-            <p className="font-semibold text-indigo-600"> ❓Je suis déjà monteur, est-ce que j’ai quelque chose à apprendre ?</p>
+            <p className="font-semibold text-accent"> ❓Je suis déjà monteur, est-ce que j’ai quelque chose à apprendre ?</p>
             <p className="mt-2">Bien sûr. Le niveau Advanced est là pour les monteurs qui veulent aller plus loin.</p>
           </div>
           <div>
-            <p className="font-semibold text-indigo-600"> ❓Et si je ne comprends pas quelque chose ?</p>
+            <p className="font-semibold text-accent"> ❓Et si je ne comprends pas quelque chose ?</p>
             <p className="mt-2">Tu as accès au support 24/7 + des séances live offertes à la fin pour clarifier tout.</p>
           </div>
           <div>
-            <p className="font-semibold text-indigo-600"> ❓Est-ce que c’est en français ou darija ?</p>
+            <p className="font-semibold text-accent"> ❓Est-ce que c’est en français ou darija ?</p>
             <p className="mt-2">La formation est disponible en darija (version EN bientôt dispo).</p>
           </div>
         </div>
       </section>
 
       <section className="py-16 px-6 bg-gray-50">
-        <h2 className="text-4xl font-bold text-center text-indigo-600 flex items-center justify-center">
+        <h2 className="text-4xl font-bold text-center text-accent flex items-center justify-center">
           <i className="fas fa-lightbulb mr-3"></i> Pourquoi cette méthode fonctionne ?
         </h2>
         <div className="mt-8 max-w-4xl mx-auto space-y-6 text-lg text-gray-700">
           <ul className=" list-inside space-y-3">
-            <li><i className="fas fa-check-circle text-indigo-600 mr-3"></i>Tu avances à ton rythme</li>
-            <li><i className="fas fa-check-circle text-indigo-600 mr-3"></i>Tu apprends par la pratique, pas par la théorie</li>
-            <li><i className="fas fa-check-circle text-indigo-600 mr-3"></i>Tu es guidé jusqu’à devenir opérationnel en freelance</li>
-            <li><i className="fas fa-check-circle text-indigo-600 mr-3"></i>Tu n’es pas seul : tu as un support H24 + séances live</li>
-            <li><i className="fas fa-check-circle text-indigo-600 mr-3"></i>C’est une méthode testée par +150 monteurs marocains</li>
-            <li><i className="fas fa-check-circle text-indigo-600 mr-3"></i>Tu te formes pour gagner de l’argent, pas juste apprendre</li>
+            <li><i className="fas fa-check-circle text-accent mr-3"></i>Tu avances à ton rythme</li>
+            <li><i className="fas fa-check-circle text-accent mr-3"></i>Tu apprends par la pratique, pas par la théorie</li>
+            <li><i className="fas fa-check-circle text-accent mr-3"></i>Tu es guidé jusqu’à devenir opérationnel en freelance</li>
+            <li><i className="fas fa-check-circle text-accent mr-3"></i>Tu n’es pas seul : tu as un support H24 + séances live</li>
+            <li><i className="fas fa-check-circle text-accent mr-3"></i>C’est une méthode testée par +150 monteurs marocains</li>
+            <li><i className="fas fa-check-circle text-accent mr-3"></i>Tu te formes pour gagner de l’argent, pas juste apprendre</li>
           </ul>
         </div>
       </section>
@@ -465,38 +465,38 @@ export default function LandingPage() {
           <i className="fas fa-star mr-3"></i> Ce que tu obtiens en rejoignant WPRODACADEMY
         </h2>
         <div className="max-w-4xl mx-auto grid grid-cols-1 md:grid-cols-2 gap-8 text-lg">
-          <div className="bg-white text-purple-600 p-6 rounded-lg shadow-lg">
+          <div className="bg-primary text-accent p-6 rounded-lg shadow-lg">
             <ul className="space-y-4">
               <li className="flex items-start">
-                <i className="fas fa-check-circle text-indigo-600 mr-3"></i>
+                <i className="fas fa-check-circle text-accent mr-3"></i>
                 Accès complet au programme choisi
               </li>
               <li className="flex items-start">
-                <i className="fas fa-check-circle text-indigo-600 mr-3"></i>
+                <i className="fas fa-check-circle text-accent mr-3"></i>
                 Accès à vie (aucune limite de temps)
               </li>
               <li className="flex items-start">
-                <i className="fas fa-check-circle text-indigo-600 mr-3"></i>
+                <i className="fas fa-check-circle text-accent mr-3"></i>
                 Support 24h/24 pour toutes tes questions
               </li>
               <li className="flex items-start">
-                <i className="fas fa-check-circle text-indigo-600 mr-3"></i>
+                <i className="fas fa-check-circle text-accent mr-3"></i>
                 2 à 3 séances live offertes à la fin
               </li>
             </ul>
           </div>
-          <div className="bg-white text-purple-600 p-6 rounded-lg shadow-lg">
+          <div className="bg-primary text-accent p-6 rounded-lg shadow-lg">
             <ul className="space-y-4">
               <li className="flex items-start">
-                <i className="fas fa-check-circle text-indigo-600 mr-3"></i>
+                <i className="fas fa-check-circle text-accent mr-3"></i>
                 Accès aux cadeaux (packs, fichiers, outils)
               </li>
               <li className="flex items-start">
-                <i className="fas fa-check-circle text-indigo-600 mr-3"></i>
+                <i className="fas fa-check-circle text-accent mr-3"></i>
                 Communauté privée entre monteurs
               </li>
               <li className="flex items-start">
-                <i className="fas fa-check-circle text-indigo-600 mr-3"></i>
+                <i className="fas fa-check-circle text-accent mr-3"></i>
                 Certificat à la fin de chaque niveau
               </li>
             </ul>
@@ -504,34 +504,34 @@ export default function LandingPage() {
         </div>
       </section>
 
-      <section className="py-16 px-6 bg-gradient-to-b from-indigo-600 to-purple-600 text-white">
+      <section className="py-16 px-6 bg-gradient-to-b from-dark to-accent text-primary">
         <h2 className="text-4xl font-bold text-center mb-8">
           <i className="fas fa-shield-alt mr-3"></i> Garantie Satisfaction 100%
         </h2>
-        <div className="max-w-4xl mx-auto bg-white text-purple-600 p-8 rounded-lg shadow-lg">
+        <div className="max-w-4xl mx-auto bg-primary text-dark p-8 rounded-lg shadow-lg">
           <p className="text-lg mb-4">
-            Tu testes ta formation, tu profites de <span className="font-bold">2 séances live gratuites</span>.
+            Teste ta formation avec <span className="font-bold">2 séances live gratuites</span>.
           </p>
           <p className="text-lg mb-4">
-            Si tu n’es pas satisfait avant la <span className="font-bold">3ᵉ séance</span>, on te rembourse.
+            Si tu n’es pas satisfait avant la <span className="font-bold">3ᵉ séance</span>, tu seras remboursé.
           </p>
           <p className="text-lg mb-4">
             Après la <span className="font-bold">3ᵉ séance</span>, aucun remboursement ne sera possible.
           </p>
           <p className="text-lg">
-            <span className="font-bold">Aucune formule 1-to-1</span> n’est incluse gratuitement.
+            <span className="font-bold">Note :</span> Les formules 1-to-1 ne sont pas incluses gratuitement.
           </p>
         </div>
       </section>
 
-      <section className="py-16 px-6 bg-gradient-to-b from-purple-600 to-indigo-600 text-white">
+      <section className="py-16 px-6 bg-gradient-to-b from-accent to-dark text-primary">
         <h2 className="text-4xl font-bold text-center">Rejoins maintenant WPRODACADEMY !</h2>
         <p className="mt-6 text-center text-lg">
-          Tu veux changer ta vie grâce au montage vidéo ? Lance-toi aujourd’hui. Apprends à ton rythme. Deviens freelance. Sois indépendant. Vis de ta passion.
+          Transforme ta passion pour le montage vidéo en une carrière réussie. Apprends à ton rythme, deviens freelance, et vis de ta créativité.
         </p>
         <div className="mt-8 text-center">
           <button
-            className="bg-white text-purple-600 hover:bg-gray-100 py-3 px-6 rounded-full text-lg shadow-lg"
+            className="bg-primary text-dark hover:bg-secondary py-3 px-6 rounded-full text-lg shadow-lg"
             onClick={handleModalToggle}
           >
             Je m’inscris maintenant
