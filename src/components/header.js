@@ -1,6 +1,7 @@
 import { useState, useEffect } from 'react';
 import { PopoverGroup } from '@headlessui/react';
-import logo from "../images/WPRODACADEMY.png";
+import logo1 from "../images/output-onlinepngtools.png";
+import logo2 from "../images/LOGOBLEU.png";
 
 export default function Header() {
   const [isScrolled, setIsScrolled] = useState(false);
@@ -31,7 +32,7 @@ export default function Header() {
             <span className="sr-only">Your Company</span>
             <img
               alt=""
-              src={logo}
+              src={isScrolled ? logo2 : logo1}
               className={`transition-all duration-300 ease-in-out ${
                 isScrolled ? 'h-10' : 'h-12'
               } w-auto`}
@@ -102,7 +103,7 @@ export default function Header() {
             className={`transition-all duration-300 font-medium rounded-full shadow-lg ${
               isScrolled
                 ? 'py-2 px-4 text-xs text-white bg-dark hover:bg-secondary'
-                : 'py-3 px-6 text-sm text-white bg-accent hover:bg-dark'
+                : 'py-2 px-6 text-sm text-white bg-accent hover:bg-dark'
             }`}
           >
             S'inscrire

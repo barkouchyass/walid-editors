@@ -78,7 +78,7 @@ export default function LandingPage() {
     <div className="bg-gray-50 text-gray-800 font-sans">
       <section className="text-center py-16 bg-gradient-to-b from-accent to-dark text-primary">
         <h1 className="text-4xl font-semibold leading-tight">
-          Deviens Monteur Vidéo Pro avec <span className="font-extrabold text-secondary">WPRODACADEMY</span>
+          Deviens Monteur Vidéo Pro avec <span className="font-extrabold">WPRODACADEMY</span>
         </h1>
         <p className="mt-6 text-lg max-w-3xl mx-auto">
           Forme-toi à ton rythme, depuis ton PC, avec une méthode testée et approuvée.
@@ -217,8 +217,8 @@ export default function LandingPage() {
           Senior Editor, Colorist, VFX Artist et Graphic Designer, il a accompagné de nombreux monteurs à lancer leur carrière en freelance. Sa méthode d’apprentissage allie pratique, structure et maîtrise d’Adobe Premiere Pro, avec un seul objectif : te rendre indépendant financièrement grâce au montage vidéo.
           </p>
           <div className="flex flex-col items-center">
-          <div className="font-bold text-gray-600">« Mon objectif, c’est que tu deviennes indépendant financièrement, depuis ton PC. »</div>
-            <div className="text-lg font-semibold">Walid Fiqhi</div>
+          <div className="font-bold text-accent">« Mon objectif, c’est que tu deviennes indépendant financièrement, depuis ton PC. »</div>
+            <div className="text-lg font-semibold text-accent">Walid Fiqhi</div>
             
             <img
               src={img}
@@ -314,19 +314,19 @@ export default function LandingPage() {
           <i className="fas fa-chart-line mr-3"></i> Résultats des étudiants
         </h2>
         <div className="max-w-4xl mx-auto grid grid-cols-1 md:grid-cols-2 gap-8">
-          <div className="bg-primary text-dark p-6 rounded-lg shadow-lg text-center">
+          <div className="bg-primary text-accent p-6 rounded-lg shadow-lg text-center">
             <h3 className="text-3xl font-bold">🏆 +150</h3>
             <p className="mt-2 text-lg">Étudiants formés avec succès</p>
           </div>
-          <div className="bg-primary text-dark p-6 rounded-lg shadow-lg text-center">
+          <div className="bg-primary text-accent p-6 rounded-lg shadow-lg text-center">
             <h3 className="text-3xl font-bold">👥 80%</h3>
             <p className="mt-2 text-lg">Ont décroché leurs premiers clients freelance</p>
           </div>
-          <div className="bg-primary text-dark p-6 rounded-lg shadow-lg text-center">
+          <div className="bg-primary text-accent p-6 rounded-lg shadow-lg text-center">
             <h3 className="text-3xl font-bold">💸 40%</h3>
             <p className="mt-2 text-lg">Ont atteint un revenu de +8000 MAD/mois</p>
           </div>
-          <div className="bg-primary text-dark p-6 rounded-lg shadow-lg text-center">
+          <div className="bg-primary text-accent p-6 rounded-lg shadow-lg text-center">
             <h3 className="text-3xl font-bold">🌍 International</h3>
             <p className="mt-2 text-lg">
               Certains travaillent avec des boîtes, créateurs, ou depuis l’étranger
@@ -343,7 +343,7 @@ export default function LandingPage() {
           <div className="bg-gray-50 p-8 rounded-lg shadow-lg border border-gray-200 flex flex-col items-center text-center">
             <h3 className="text-2xl font-bold text-accent mb-4">Pack complet (les 3 niveaux)</h3>
             <p className="text-base text-gray-600 mb-6">
-              Économisez plus de <span className="font-bold">1800 MAD</span> en optant pour le pack complet !
+              Économisez plus de <span className="font-bold text-accent">1800 MAD</span> en optant pour le pack complet !
             </p>
             <ul className="space-y-3 text-gray-700 text-left w-full max-w-xs">
               <li>✅ Accès à vie</li>
@@ -367,7 +367,7 @@ export default function LandingPage() {
               <li>✅ Bilan et plan de carrière</li>
             </ul>
             <p className="mt-8 text-2xl font-bold text-accent">4000 MAD</p>
-            <p className="mt-2 text-sm text-gray-600 font-bold">Places limitées chaque mois.</p>
+            <p className="mt-2 text-sm text-accent font-bold">Places limitées chaque mois.</p>
           </div>
         </div>
       </section>
@@ -416,29 +416,29 @@ export default function LandingPage() {
         </div>
       </section>
 
-      <section id="faq" className="py-16 px-6 bg-primary">
-        <h2 className="text-4xl font-bold text-center text-accent flex items-center justify-center">
+      <section id="faq" className="py-16 px-6 bg-accent">
+        <h2 className="text-4xl font-bold text-center text-secondary flex items-center justify-center">
           <i className="fas fa-question-circle mr-3"></i> Questions Fréquentes (FAQ)
         </h2>
-        <div className="mt-8 max-w-4xl mx-auto space-y-6 text-lg text-gray-700">
+        <div className="mt-8 max-w-4xl mx-auto space-y-6 text-lg text-primary">
           <div>
-            <p className="font-semibold text-accent"> ❓Est-ce que je peux commencer même si je suis débutant ?</p>
+            <p className="font-semibold text-secondary"> ❓Est-ce que je peux commencer même si je suis débutant ?</p>
             <p className="mt-2">Oui ! Le pack Video Editing Basics est fait pour toi.</p>
           </div>
           <div>
-            <p className="font-semibold text-accent"> ❓Est-ce que je peux payer en plusieurs fois ?</p>
+            <p className="font-semibold text-secondary"> ❓Est-ce que je peux payer en plusieurs fois ?</p>
             <p className="mt-2">Tu pourras bientôt payer en plusieurs fois avec nos partenaires.</p>
           </div>
           <div>
-            <p className="font-semibold text-accent"> ❓Je suis déjà monteur, est-ce que j’ai quelque chose à apprendre ?</p>
+            <p className="font-semibold text-secondary"> ❓Je suis déjà monteur, est-ce que j’ai quelque chose à apprendre ?</p>
             <p className="mt-2">Bien sûr. Le niveau Advanced est là pour les monteurs qui veulent aller plus loin.</p>
           </div>
           <div>
-            <p className="font-semibold text-accent"> ❓Et si je ne comprends pas quelque chose ?</p>
+            <p className="font-semibold text-secondary"> ❓Et si je ne comprends pas quelque chose ?</p>
             <p className="mt-2">Tu as accès au support 24/7 + des séances live offertes à la fin pour clarifier tout.</p>
           </div>
           <div>
-            <p className="font-semibold text-accent"> ❓Est-ce que c’est en français ou darija ?</p>
+            <p className="font-semibold text-secondary"> ❓Est-ce que c’est en français ou darija ?</p>
             <p className="mt-2">La formation est disponible en darija (version EN bientôt dispo).</p>
           </div>
         </div>
