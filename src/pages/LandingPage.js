@@ -13,6 +13,7 @@ export default function LandingPage() {
     phone: "",
     pack: "",
   });
+  const [showSuccessMessage, setShowSuccessMessage] = useState(false); // State for success message
 
   const handleModalToggle = () => {
     setIsModalOpen(!isModalOpen);
@@ -60,7 +61,8 @@ export default function LandingPage() {
         emailjs
           .send("service_bds8bf9", "template_xp7ixhe", userTemplateParams, "-PD1kZGW2xD80FEI7")
           .then(() => {
-            alert("Les e-mails ont été envoyés avec succès !");
+            setShowSuccessMessage(true); // Show success message
+            setTimeout(() => setShowSuccessMessage(false), 5000); // Hide after 5 seconds
             setIsModalOpen(false);
           })
           .catch((error) => {
@@ -76,6 +78,13 @@ export default function LandingPage() {
 
   return (
     <div className="bg-gray-50 text-gray-800 font-sans">
+      {/* Success Message */}
+      {showSuccessMessage && (
+        <div className="fixed top-16 left-1/2 transform -translate-x-1/2 bg-green-500 text-white py-3 px-6 rounded-lg shadow-lg transition-opacity duration-500">
+          Votre candidature a été envoyée avec succès !
+        </div>
+      )}
+
       <section className="text-center py-16 bg-gradient-to-b from-accent to-dark text-primary">
         <h1 className="text-4xl font-semibold leading-tight">
           Deviens Monteur Vidéo Pro avec <span className="font-extrabold">WPRODACADEMY</span>
@@ -102,7 +111,7 @@ export default function LandingPage() {
             </h2>
             <form className="space-y-6" onSubmit={handleSubmit}>
               <div>
-                <label className="block text-gray-700 font-semibold mb-2" htmlFor="name">
+                <label className="block text-secondary font-semibold mb-2" htmlFor="name">
                   Nom complet
                 </label>
                 <input
@@ -110,13 +119,13 @@ export default function LandingPage() {
                   id="name"
                   value={formData.name}
                   onChange={handleInputChange}
-                  className="w-full px-4 py-3 border border-gray-300 rounded-lg focus:outline-none focus:ring-4 focus:ring-indigo-500 focus:border-transparent"
+                  className="w-full px-4 py-3 border border-accent rounded-lg focus:outline-none focus:ring-4 focus:ring-accent-light focus:border-transparent bg-gray-50 text-gray-800"
                   placeholder="Entrez votre nom complet"
                   required
                 />
               </div>
               <div>
-                <label className="block text-gray-700 font-semibold mb-2" htmlFor="email">
+                <label className="block text-secondary font-semibold mb-2" htmlFor="email">
                   Email
                 </label>
                 <input
@@ -124,13 +133,13 @@ export default function LandingPage() {
                   id="email"
                   value={formData.email}
                   onChange={handleInputChange}
-                  className="w-full px-4 py-3 border border-gray-300 rounded-lg focus:outline-none focus:ring-4 focus:ring-indigo-500 focus:border-transparent"
+                  className="w-full px-4 py-3 border border-accent rounded-lg focus:outline-none focus:ring-4 focus:ring-accent-light focus:border-transparent bg-gray-50 text-gray-800"
                   placeholder="Entrez votre email"
                   required
                 />
               </div>
               <div>
-                <label className="block text-gray-700 font-semibold mb-2" htmlFor="phone">
+                <label className="block text-secondary font-semibold mb-2" htmlFor="phone">
                   Téléphone
                 </label>
                 <input
@@ -138,43 +147,43 @@ export default function LandingPage() {
                   id="phone"
                   value={formData.phone}
                   onChange={handleInputChange}
-                  className="w-full px-4 py-3 border border-gray-300 rounded-lg focus:outline-none focus:ring-4 focus:ring-indigo-500 focus:border-transparent"
+                  className="w-full px-4 py-3 border border-accent rounded-lg focus:outline-none focus:ring-4 focus:ring-accent-light focus:border-transparent bg-gray-50 text-gray-800"
                   placeholder="Entrez votre numéro de téléphone"
                   required
                 />
               </div>
               <div>
-                <label className="block text-gray-700 font-semibold mb-2" htmlFor="pack">
+                <label className="block text-secondary font-semibold mb-2" htmlFor="pack">
                   Choisissez un pack
                 </label>
                 <select
                   id="pack"
                   value={formData.pack}
                   onChange={handleInputChange}
-                  className="w-full px-4 py-3 border border-gray-300 rounded-lg focus:outline-none focus:ring-4 focus:ring-indigo-500 focus:border-transparent"
+                  className="w-full px-4 py-3 border border-accent rounded-lg focus:outline-none focus:ring-4 focus:ring-accent-light focus:border-transparent bg-gray-50 text-gray-800"
                   required
                 >
                   <option value="" disabled>
                     Sélectionnez un pack
                   </option>
-                  <option value="pack1">Pack 1 – Video Editing Basics</option>
-                  <option value="pack2">Pack 2 – Intermediate Editing Techniques</option>
-                  <option value="pack3">Pack 3 – Advanced Editing Techniques</option>
-                  <option value="packComplet">Pack complet (les 3 niveaux)</option>
-                  <option value="offre1to1">Offre 1-to-1 (Coaching Premium)</option>
+                  <option value="pack 1 - Video Editing Basics">Pack 1 – Video Editing Basics</option>
+                  <option value="pack 2 – Intermediate Editing Techniques">Pack 2 – Intermediate Editing Techniques</option>
+                  <option value="pack 3 – Advanced Editing Techniques">Pack 3 – Advanced Editing Techniques</option>
+                  <option value="pack Complet (les 3 niveaux)">Pack complet (les 3 niveaux)</option>
+                  <option value="offre 1 to 1 (Coaching Premium)">Offre 1-to-1 (Coaching Premium)</option>
                 </select>
               </div>
               <div className="flex justify-end space-x-4">
                 <button
                   type="button"
-                  className="bg-gray-300 text-gray-700 px-5 py-2 rounded-lg hover:bg-gray-400 transition"
+                 className="mt-8 bg-gray-300 text-gray-700 px-5 py-2 hover:bg-gray-400 rounded-full text-lg shadow-lg"
                   onClick={handleModalToggle}
                 >
                   Annuler
                 </button>
                 <button
                   type="submit"
-                  className="bg-gradient-to-r from-indigo-600 to-purple-600 text-white px-5 py-2 rounded-lg hover:opacity-90 transition"
+                   className="mt-8 bg-primary text-dark hover:bg-secondary py-3 px-6 rounded-full text-lg shadow-lg"
                 >
                   S'inscrire
                 </button>
@@ -199,7 +208,7 @@ export default function LandingPage() {
           animation: modal 0.4s ease-out forwards;
         }
         .text-gradient {
-          background: linear-gradient(to right, #4f46e5, #9333ea);
+          background: linear-gradient(to right, #3b82f6, #2563eb);
           -webkit-background-clip: text;
           -webkit-text-fill-color: transparent;
         }
